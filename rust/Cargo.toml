@@ -1,0 +1,9 @@
+[package]
+name = "your_package_name"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+kafka = "0.8.0"
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15.0"
